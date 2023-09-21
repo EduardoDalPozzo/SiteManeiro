@@ -74,3 +74,16 @@ h1 {
 .tecla:active:focus {
   box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
 }
+
+
+mark {
+font-size:160%;
+background:none;
+color:#f00;
+}
+
+#mark2 {
+font-size:40%;
+background:none;
+color:#f00;
+}
