@@ -1,3 +1,5 @@
+
+
 :root {
   --cinza: #f46;
   --vermelha: #a35;
@@ -7,6 +9,7 @@
 }
 
 body {
+  zoom:69%;
   align-items: center;
   background: linear-gradient(45deg, #224 0%,#ddf 100%);
   display: flex;
