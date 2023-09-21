@@ -32,7 +32,38 @@ function CLICKTIC() {
 
 function CLICKTOM() {
    document.querySelector('#som_tecla_tom').play();
+   document.querySelector('#som_tecla_oie').play();
+   setTimeout(function() { document.querySelector('#som_tecla_zoio5').play();}, 4600);
 }
+
+function CLICKZOIO() {
+   document.querySelector('#som_tecla_zoio').play();
+}
+
+
+function CLICKZOIOA() {
+   document.querySelector('#som_tecla_zoio2').play();
+}
+
+function CLICK4() {
+   document.querySelector('#som_tecla_quatro').play();
+   setTimeout(function() { document.querySelector('#som_tecla_haha').play();}, 1000);
+  
+}
+
+function CLICKZOIOB() {
+   document.querySelector('#som_tecla_zoio3').play();
+}
+
+function CLICKZOIOC() {
+   document.querySelector('#som_tecla_zoio4').play();
+}
+
+function CLICKZOIOD() {
+   document.querySelector('#som_tecla_zoio6').play();
+}
+
+
 
 
 
@@ -45,3 +76,9 @@ document.querySelector('.tecla_toim').onclick = CLICKTOIM
 document.querySelector('.tecla_psh').onclick = CLICKPSH
 document.querySelector('.tecla_tic').onclick = CLICKTIC
 document.querySelector('.tecla_tom').onclick = CLICKTOM
+document.querySelector('.tecla_zoio').onclick = CLICKZOIO
+document.querySelector('.tecla_zoio2').onclick = CLICKZOIOA
+document.querySelector('.tecla_quatro').onclick = CLICK4
+document.querySelector('.tecla_zoio3').onclick = CLICKZOIOB
+document.querySelector('.tecla_zoio6').onclick = CLICKZOIOC
+document.querySelector('.tecla_zoio4').onclick = CLICKZOIOD
