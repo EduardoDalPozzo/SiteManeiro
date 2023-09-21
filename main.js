@@ -45,7 +45,7 @@ function CLICKZOIOA() {
    document.querySelector('#som_tecla_zoio2').play();
 }
 
-function CLICK4() {
+function CLICKQUATRO() {
    document.querySelector('#som_tecla_quatro').play();
    setTimeout(function() { document.querySelector('#som_tecla_haha').play();}, 1000);
   
@@ -78,7 +78,7 @@ document.querySelector('.tecla_tic').onclick = CLICKTIC
 document.querySelector('.tecla_tom').onclick = CLICKTOM
 document.querySelector('.tecla_zoio').onclick = CLICKZOIO
 document.querySelector('.tecla_zoio2').onclick = CLICKZOIOA
-document.querySelector('.tecla_quatro').onclick = CLICK4
+document.querySelector('.tecla_quatro').onclick = CLICKQUATRO
 document.querySelector('.tecla_zoio3').onclick = CLICKZOIOB
 document.querySelector('.tecla_zoio6').onclick = CLICKZOIOC
 document.querySelector('.tecla_zoio4').onclick = CLICKZOIOD
