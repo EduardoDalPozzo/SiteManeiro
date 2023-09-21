@@ -18,8 +18,8 @@ body {
 
 h1 {
   color: var(--branca);
-  margin-bottom: 20px;
-  font-size: 3rem;
+  margin-bottom: 15px;
+  font-size: 2.2rem;
   font-weight:900;
   text-decoration:underline;
   background:radial-gradient(#faa 0%, #aaf 100%);
@@ -30,6 +30,16 @@ h1 {
 
 
 }
+
+h2 {
+  color: var(--branca);
+  margin-bottom: 5px;
+  font-size: 1.5rem;
+  font-weight:900;
+  text-decoration:underline;
+
+}
+
 
 .teclado {
   background: linear-gradient(to bottom, #aaa 0%,#ccc 100%);
