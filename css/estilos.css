@@ -1,8 +1,7 @@
 
-
 :root {
-  --cinza: #f46;
-  --vermelha: #a35;
+  --cinza: #a0d;
+  --vermelha: #c57;
   --vermelha-escura: #511;
   --branca: #322;
   --luz: #aaf;
@@ -11,7 +10,7 @@
 body {
   zoom:69%;
   align-items: center;
-  background: linear-gradient(45deg, #224 0%,#ddf 100%);
+  background: linear-gradient(60deg, #224 0%,#aba 50%,#eec 100%);
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -25,19 +24,17 @@ h1 {
   font-size: 2.2rem;
   font-weight:900;
   text-decoration:underline;
-  background:radial-gradient(#faa 0%, #aaf 100%);
-  border-radius:40px;
+  background:radial-gradient(#faa 20%, #aaf 100%);
+  border-radius:50px;
   padding:6px;
-  border-right:20px double #f55;   border-top:5px double #f5f;   border-left:12px double #55f;   border-bottom:8px double #a3d;
-
-
+  border:20px double #255;
 
 }
 
 h2 {
   color: var(--branca);
   margin-bottom: 5px;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight:900;
   text-decoration:underline;
 
@@ -45,7 +42,7 @@ h2 {
 
 
 .teclado {
-  background: linear-gradient(to bottom, #aaa 0%,#ccc 100%);
+  background: linear-gradient(60deg, #aba 0%,#ddc 100%);
   box-shadow: 6px 8px 0 6px #333, 10px 10px 10px #000;
   border-radius: 10px;
   display: grid;
@@ -55,7 +52,7 @@ h2 {
 }
 
 .tecla {
-  background-color: var(--branca);
+  background:linear-gradient(60deg, #322 50%,#633 100%);
   border-radius: 10px;
   box-shadow: 3px 3px 0 var(--cinza);
   color: var(--vermelha);
@@ -72,7 +69,7 @@ h2 {
 .tecla:active {
   background-color: var(--vermelha);
   border: 4px solid  var(--vermelha);
-  box-shadow: 6px 6px 0 var(--vermelha-escura) inset;
+  box-shadow: 20px 20px 0 var(--vermelha-escura) inset;
   color: var(--branca);
   outline: none;
 }
@@ -85,7 +82,8 @@ h2 {
 
 .tecla.active:focus,
 .tecla:active:focus {
-  box-shadow: 3px 3px 0 var(--vermelha-escura) inset, 1px 1px 10px var(--luz);
+  box-shadow: 10px 10px 0 #301 inset, 4px 4px 15px var(--luz);
+  background:linear-gradient(60deg,#511 0%,#733 50%, #944 90%,#733 100%);
 }
 
 
