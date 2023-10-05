@@ -98,3 +98,10 @@ font-size:40%;
 background:none;
 color:#f00;
 }
+
+.tecla:hover{
+  background:linear-gradient(60deg, #333 50%,#655 100%);
+  border: 4px solid  var(--vermelha);
+  color: #eee;
+  outline: none;
+}
